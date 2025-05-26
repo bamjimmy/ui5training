@@ -8,7 +8,7 @@ sap.ui.define([
     return Controller.extend("sap.ui5training.controller.App", {
 
       onSayHello: function () {
-        MessageBox.information("Hello World");
+        MessageBox.information("Hello World Jimmy!");
       }
 
     });

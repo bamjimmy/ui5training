@@ -1,7 +1,7 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-    "id": "ui5training",
+    "id": "sap.ui5training",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -79,7 +79,7 @@
       "targets": {}
     },
     "rootView": {
-      "viewName": "<...>",
+      "viewName": "sap.ui5training.view.App",
       "type": "XML",
       "id": "App",
       "async": true
