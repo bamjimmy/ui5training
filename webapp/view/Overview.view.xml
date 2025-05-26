@@ -1,0 +1,7 @@
+<mvc:View controllerName="sap.ui5training.controller.Overview"
+          xmlns:mvc="sap.ui.core.mvc"  
+          xmlns="sap.m">
+
+
+   
+</mvc:View>
