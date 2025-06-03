@@ -74,6 +74,7 @@
         "viewType": "XML",
         "async": true,
         "viewPath": "sap.ui5training.view"
+      
       },
       "routes": [],
       "targets": {}

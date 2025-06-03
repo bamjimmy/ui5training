@@ -22,7 +22,7 @@ metadata: {
             getContentDensityClass: function () {
                 if(!this._sContentDensityClass) {
                     if(Device.support.touch) {
-                        this._sContentDensityClass = "sapUiSizeCozy";
+                        this._sConentDensityClass = "sapUiSizeCozy";
                     } else {
                         this._sContentDensityClass = "sapUiSizeCompact";
                     }
