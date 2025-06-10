@@ -9,7 +9,7 @@
     type ="Message">
 
     <content>
-      <Text text="Customer data is later saved via Odata service."/>
+      <Text text="Customer {customer>/CustomerName} is later saved via Odata service."/>
     </content>
     <beginButton>
       <Button

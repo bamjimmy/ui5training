@@ -15,7 +15,8 @@
       "version": "1.17.3",
       "toolsId": "abb6d90c-7501-4b64-8df5-2fa730ccb885"
     }
-  },
+  },                                                                                                                                                    
+
   "sap.ui": {
     "technology": "UI5",
     "icons": {
@@ -51,6 +52,7 @@
       "compact": true,
       "cozy": true
     },
+
     "models": {
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
@@ -59,6 +61,21 @@
         }
       }
     },
+    "ODataModel": {
+      "dataSource": "<...>",
+      "settings": {
+        "synchronizationMode": "None",
+        "operationMode": "Server",
+        "autoExpandSelect": true,
+        "earlyRequests": true
+      }
+    },
+
+ "": { "type": "sap.ui.model.json.JSONModel",
+       "uri": "model/data.json."
+        },
+
+
     "resources": {
       "css": [
         {

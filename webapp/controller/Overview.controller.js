@@ -1,15 +1,23 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/ui/core/syncStyleClass"
+    "sap/ui/core/syncStyleClass",
+    "sap/ui/model/json/JSONModel",
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller, syncStyleClass) {
+    function (Controller, syncStyleClass, JSONModel) {
         "use strict";
 
         return Controller.extend("sap.ui5training.controller.Overview", {
-onSave: function () {
+            onInit: function () {
+  // Create a JSON model and set it to the view
+    var oModel = new JSONModel();
+    this.getView().setModel(oModel, "customer");    
+            },
+
+
+    onSave: function () {
   if (!this.pDialog) {
     this.pDialog = this.loadFragment({
       name: "sap.ui5training.view.Dialog"
