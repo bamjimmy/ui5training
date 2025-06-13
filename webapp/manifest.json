@@ -59,7 +59,6 @@
         "settings": {
           "bundleName": "<...>"
         }
-      }
     },
     "ODataModel": {
       "dataSource": "<...>",
@@ -71,10 +70,10 @@
       }
     },
 
- "": { "type": "sap.ui.model.json.JSONModel",
-       "uri": "model/data.json."
-        },
-
+    "": { "type": "sap.ui.model.json.JSONModel",
+           "uri": "model/data.json"
+        }
+      },
 
     "resources": {
       "css": [
